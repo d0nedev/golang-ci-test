@@ -1,0 +1,16 @@
+# binary from `go build`
+/golang-ci-test
+*.exe
+*.test
+
+# coverage
+*.out
+coverage.html
+
+# local env / editor
+.env
+.idea/
+.vscode/
+.DS_Store
+
+config.yaml
