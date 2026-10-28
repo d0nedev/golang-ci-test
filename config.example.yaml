@@ -1,8 +1,0 @@
-# Copy to config.yaml. Every key can be overridden by env APP_<KEY>,
-# e.g. APP_PORT=9000. Missing keys fall back to the defaults shown here.
-
-port: "8080"              # APP_PORT
-log_level: info           # APP_LOG_LEVEL: debug | info | warn | error
-read_timeout: 5s          # APP_READ_TIMEOUT
-write_timeout: 10s        # APP_WRITE_TIMEOUT
-shutdown_timeout: 10s     # APP_SHUTDOWN_TIMEOUT
